@@ -1,0 +1,54 @@
+    .car {
+      width: 200px;
+      height: 150px;
+      background-color: #e25757;
+      position: absolute;
+      left: -300px;
+      top: 60%;
+      transform: translateY(-50%);
+      animation: moveCar 4s forwards;
+      border-radius: 20px 20px 0 0;
+    }
+    @keyframes moveCar {
+      from {
+        left: -200px;
+      }
+      to {
+        left: calc(100% - 250px);
+      }
+    }
+    .car-window {
+        position: absolute;
+        top: 40px;
+        width: 40px;
+        height: 50px;
+        background-color: #bff3fc;
+        border-radius: 20px 20px 0 0;
+      }
+      .car-window-left {
+        left: 35px;
+      }
+      
+      .car-window-right {
+        right: 35px;
+      }
+      .wheel {
+        position: absolute;
+        bottom: 0;
+        width: 60px;
+        height: 60px;
+        background-color: #2c2929;
+        border-radius: 100%;
+        transform: translateY(50%);
+      }
+      
+      .wheel-front {
+        left: -15px;
+      }
+      
+      .wheel-back {
+        right: -15px;
+      }
+    
+    
+    
